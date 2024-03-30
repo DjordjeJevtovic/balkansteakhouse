@@ -1,0 +1,152 @@
+@media (max-width: 1200px) {
+  header .container .row div {
+    text-align: center;
+  }
+  main #mainContent div div .mainBlock p {
+    padding: 0px !important;
+  }
+}
+@media (max-width: 1115px) {
+  main #about .container .row #aboutContent p {
+    font-size: 1.15rem;
+  }
+  main #about .container .row #aboutContent .row div h4 {
+    font-size: 35px;
+  }
+  main #about .container .row #aboutContent .row div p {
+    font-size: 1.05rem;
+  }
+}
+@media (max-width: 991px) {
+  main .cover .shade .container h2 {
+    font-size: 45px;
+  }
+  main .cover .shade .container p {
+    font-size: 20px;
+  }
+  main #about .container .row #aboutContent p {
+    font-size: 1.35rem;
+  }
+  main #about .container .row #aboutContent .row div h4 {
+    font-size: 45px;
+  }
+  main #about .container .row #aboutContent .row div p {
+    font-size: 1.15rem;
+  }
+  main #booking .container-fluid .row #bookingImg {
+    height: 400px;
+  }
+  main #autor .container .row div h2 {
+    font-size: 24px;
+  }
+  #teamMain .container .row .chef div h3 {
+    font-size: 23px;
+  }
+  #teamMain .container .row .chef div p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  header .container .row div h1 {
+    font-size: 28px;
+  }
+  header .container .row div nav ul li a {
+    font-size: 17px;
+  }
+  main .cover .shade .container h2 {
+    font-size: 40px;
+  }
+  main .cover .shade .container p {
+    font-size: 16px;
+  }
+  main #mainContent {
+    padding-bottom: 0px !important;
+  }
+  main #mainContent div div .mainBlock .pResponsive {
+    padding-bottom: 21px !important;
+  }
+  main #about .container .row .pt-4 {
+    display: none;
+  }
+  main #about .container .row #aboutContent p {
+    font-size: 1.25rem;
+  }
+  main #about .container .row #aboutContent .row div h4 {
+    font-size: 40px;
+  }
+  main #about .container .row #aboutContent .row div p {
+    font-size: 1.05rem;
+  }
+  main #autor .container .row .justify-content-center {
+    border-right: 0px !important;
+    border-bottom: #fea116 2px solid;
+    margin-bottom: 20px;
+  }
+  main #autor .container .row div h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+  main #contactMain .container .row div iframe {
+    height: 400px;
+  }
+  #teamMain .container .row .chef div h3 {
+    font-size: 23px;
+  }
+  #teamMain .container .row .chef div p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+  main .cover .shade .container h2 {
+    font-size: 35px;
+  }
+  main .cover .shade .container p {
+    display: none;
+  }
+  main #about .container .row #aboutContent .row div {
+    padding-left: 35px !important;
+  }
+  main #about .container .row #aboutContent .row div h4 {
+    font-size: 35px;
+  }
+  main #about .container .row #aboutContent .row div p {
+    font-size: 14px;
+  }
+  main #booking .container-fluid .row #bookingImg {
+    display: none;
+  }
+  #teamMain .container .row .chef div h3 {
+    font-size: 20px;
+  }
+  #teamMain .container .row .chef div p {
+    font-size: 16px;
+  }
+  footer .container .row div {
+    text-align: center;
+  }
+  footer .container .row div h5 {
+    margin: 0px auto !important;
+    margin-bottom: 10px !important;
+  }
+}
+@media (max-width: 440px) {
+  main .cover .shade .container h2 {
+    font-size: 30px;
+  }
+  main #about .container .row #aboutContent p {
+    font-size: 17px;
+  }
+  main #autor .container .row div h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+  #teamMain .container .row .chef div h3 {
+    font-size: 17px;
+  }
+  #teamMain .container .row .chef div p {
+    font-size: 14px;
+  }
+  footer .container .row div p {
+    font-size: 17px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

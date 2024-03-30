@@ -1,0 +1,380 @@
+////variables/////
+$primary: #0f172b;
+$secondary: #fea116;
+
+
+////// RESPONSIVE /////
+@media (max-width: 1200px) {
+    header{
+        .container{
+            .row{
+                div{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    main {
+        #mainContent{
+            div{
+                div{
+                    .mainBlock{
+                        p{
+                            padding: 0px !important;
+                        }
+                    } 
+                } 
+            } 
+        } 
+    }
+}
+@media (max-width: 1115px){
+    main{
+        #about{
+            .container{
+                .row{
+                    #aboutContent{
+                        p{
+                            font-size: 1.15rem;
+                        }
+                        .row{
+                            div{
+                                h4{
+                                    font-size: 35px;
+                                }
+                                p{
+                                    font-size: 1.05rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 991px){
+    main{
+        .cover{
+            .shade{
+                .container{
+                    h2{
+                        font-size: 45px;
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        #about{
+            .container{
+                .row{
+                    #aboutContent{
+                        p{
+                            font-size: 1.35rem;
+                        }
+                        .row{
+                            div{
+                                h4{
+                                    font-size: 45px;
+                                }
+                                p{
+                                    font-size: 1.15rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #booking{
+            .container-fluid{
+                .row{
+                    #bookingImg{
+                        height: 400px;
+                    }
+                }
+            }
+        }
+        #autor{
+            .container{
+                .row{
+                    div{
+                        h2{
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #teamMain{
+        .container{
+            .row{
+                .chef{
+                    div{
+                        h3{
+                            font-size: 23px;
+                        }
+                        p{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 767px){
+    header{
+        .container{
+            .row{
+                div{
+                    h1{
+                        font-size: 28px;
+                    }
+                    nav{
+                        ul{
+                            li{
+                                a{
+                                    font-size: 17px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main {
+        .cover{
+            .shade{
+                .container{
+                    h2{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        #mainContent{
+            padding-bottom: 0px !important;
+            div{
+                div{
+                    .mainBlock{
+                        .pResponsive{
+                            padding-bottom: 21px !important;
+                        }
+                    } 
+                } 
+            } 
+        } 
+        #about{
+            .container{
+                .row{
+                    .pt-4{
+                        display: none;
+                    }
+                    #aboutContent{
+                        p{
+                            font-size: 1.25rem;
+                        }
+                        .row{
+                            div{
+                                h4{
+                                    font-size: 40px;
+                                }
+                                p{
+                                    font-size: 1.05rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #autor{
+            .container{
+                .row{
+                    .justify-content-center{
+                        border-right: 0px !important;
+                        border-bottom: $secondary 2px solid;
+                        margin-bottom: 20px;
+                    }
+                    div{
+                        h2{
+                            text-align: center;
+                            font-size: 28px;
+                        }
+                    }
+                }
+            }
+        }
+        #contactMain{
+            .container{
+                .row{
+                    div{
+                        iframe{
+                            height: 400px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #teamMain{
+        .container{
+            .row{
+                .chef{
+                    div{
+                        h3{
+                            font-size: 23px;
+                        }
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 575px){
+    main{
+        .cover{
+            .shade{
+                .container{
+                    h2{
+                        font-size: 35px;
+                    }
+                    p{
+                        display: none;
+                    }
+                }
+            }
+        }
+        #about{
+            .container{
+                .row{
+                    #aboutContent{
+                        .row{
+                            div{
+                                padding-left: 35px !important;
+                                h4{
+                                    font-size: 35px;
+                                }
+                                p{
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #booking{
+            .container-fluid{
+                .row{
+                    #bookingImg{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    #teamMain{
+        .container{
+            .row{
+                .chef{
+                    div{
+                        h3{
+                            font-size: 20px;
+                        }
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .container{
+            .row{
+                div{
+                    text-align: center;
+                    h5{
+                        margin: 0px auto !important;
+                        margin-bottom: 10px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 440px){
+    main{
+        .cover{
+            .shade{
+                .container{
+                    h2{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+        #about{
+            .container{
+                .row{
+                    #aboutContent{
+                        p{
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+        #autor{
+            .container{
+                .row{
+                    div{
+                        h2{
+                            text-align: center;
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #teamMain{
+        .container{
+            .row{
+                .chef{
+                    div{
+                        h3{
+                            font-size: 17px;
+                        }
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .container{
+            .row{
+                div{
+                    p{
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+    }
+}
