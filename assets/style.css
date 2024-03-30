@@ -231,6 +231,7 @@ main #autor .container .row div h3 {
 }
 #teamMain .container .row .chef h3 {
   color: black;
+  font-size: 26px;
 }
 #teamMain .container .row .chef p {
   color: grey;
